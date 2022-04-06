@@ -1,0 +1,19 @@
+name: "Hello Actions"
+description: "Love Andrei"
+author: "octocat@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "Andrei"
+    
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+  
+branding:
+  icon: "mic"
+  color: "purple"
+  
